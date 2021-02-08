@@ -8,7 +8,7 @@ import com.example.nasaapi.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     val viewModel: MainViewModel by viewModels()
-    
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
